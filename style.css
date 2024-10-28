@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, #1a1a1d, #000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+#logo {
+    width: 120px;    
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#name {
+    color: rgb(199, 110, 78);
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 10px rgba(199, 110, 78, 0.8);
+    margin-bottom: 5px;
+}
+
+#va {
+    color: whitesmoke;
+    font-size: 28px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+#voice {
+    height: 80px;
+    display: none;
+}
+
+#btn {
+    width: 300px;
+    background: linear-gradient(135deg, rgb(170, 117, 17), rgb(44, 64, 174));
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 10px 20px rgba(59, 42, 211, 0.5), 0px 6px 6px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+#btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 25px rgba(160, 115, 31, 0.5), 0px 10px 10px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1.5px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+#instructions {
+  text-align: center;
+  color: #ffffff; /* Change text color to white for better visibility */
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+}
+
+#instructions h2 {
+  font-size: 24px;
+  color: #c76e4e; /* Keeping the heading color as is */
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 5px rgba(199, 110, 78, 0.6);
+}
+
+#instructions p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+#social-links a {
+  text-decoration: none;
+  color: rgb(44, 64, 174); /* Keep link color as is */
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+#social-links a:hover {
+  color: #c76e4e; /* Change link color on hover */
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+#social-links a {
+  text-decoration: none;
+  color: rgb(44, 64, 174);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+#social-links a:hover {
+  color: #c76e4e;
+}
+
+.social-icon {
+  width: 20px; 
+  height: 20px;
+  margin-right: 0px; 
+  filter: invert(1); 
+  transition: transform 0.3s;
+}
+
+#social-links a:hover .social-icon {
+  transform: scale(1.1); 
+}
