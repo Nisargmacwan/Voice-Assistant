@@ -10,6 +10,9 @@ bash
 Copy code
 git clone <repository-url>
 Replace <repository-url> with the actual link to your project.
+
+
+
 2. Open the Project
 
 Once cloned, navigate into the project directory:
@@ -17,14 +20,19 @@ bash
 Copy code
 cd your-project-folder
 Open the project in your preferred code editor (e.g., VS Code).
-3. Set Up the Environment
 
-No special setup is required if your project uses only HTML, CSS, and JavaScript. However, ensure your browser is updated to support the JavaScript SpeechSynthesis API.
-4. Run the Project Locally
+
+
+3. Run the Project Locally
 
 You can run the project by opening the main HTML file (index.html) in any modern web browser.
 If you’re using Visual Studio Code, install the "Live Server" extension. Right-click on index.html and select Open with Live Server. This will run the project on a local server and automatically refresh the page on changes.
-5. Usage Instructions
+
+
+
+
+
+4. Usage Instructions
 
 Once the project is running, you’ll see the user interface of the voice assistant.
 Enter or speak commands to interact with the AI assistant.
