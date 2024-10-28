@@ -31,9 +31,9 @@ function wishMe(){
     speak("Good Night");
   }
 }
-window.addEventListener('load',() => {
-  wishMe()  
-})
+//window.addEventListener('load',() => {
+  //wishMe()  
+//})
 
 let speechRecognation= window.SpeechRecognition || window.webkitSpeechRecognition 
 let recognition = new speechRecognation()
